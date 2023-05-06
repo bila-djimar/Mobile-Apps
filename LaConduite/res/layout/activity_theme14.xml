@@ -1,0 +1,140 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme14"
+    tools:ignore="MergeRootFrame"  >
+
+<ScrollView
+        android:id="@+id/scrollViewTheme14"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme141"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+        <HorizontalScrollView
+             android:id="@+id/horizontalSerie1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_gravity="center" >    
+       
+
+        <ImageView
+            android:id="@+id/imageViewTheme14"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_14" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+   
+   <TableRow
+        android:id="@+id/tableTheme142"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+   
+    <TableRow
+        android:id="@+id/tableTheme1431"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer82"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+<TextView
+     android:id="@+id/textViewTheme143"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Je viens de tomber en panne sur cette autoroute. Pour trouver un poste d'appel d'urgence, j'aurai moins de 2 km de marche à faire:"
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme14">
+        
+    </RadioGroup>
+    
+    <TableRow
+        android:id="@+id/tableTheme143"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme14"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme14"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    
+    
+    

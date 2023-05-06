@@ -1,0 +1,142 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme23"
+    tools:ignore="MergeRootFrame" >
+
+
+
+<ScrollView
+        android:id="@+id/scrollViewTheme23"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme231"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+  <HorizontalScrollView
+             android:id="@+id/horizontalTheme23"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_gravity="center" >      
+       
+       
+        <ImageView
+            android:id="@+id/imageViewTheme23"
+            android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_23" />
+
+   
+    </LinearLayout> 
+            
+              </HorizontalScrollView>    
+        
+   <TableRow
+        android:id="@+id/tableTheme232"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme232"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+   <TableRow
+        android:id="@+id/tableTheme2331"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer23"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+   
+<TextView
+     android:id="@+id/textViewTheme233"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Pour dépasser cet usager, je dois m'écarter d'au moins:"
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme23">
+        
+    </RadioGroup>
+    
+    <TableRow
+        android:id="@+id/tableTheme233"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme23"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme23"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    

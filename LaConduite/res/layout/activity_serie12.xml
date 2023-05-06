@@ -1,0 +1,292 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivitySerie12"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewSerie12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+  
+    
+
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableserie121"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalSerie12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewserie12"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/series_12" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableserie122"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+    <TableRow
+        android:id="@+id/tableThemeS12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerS12"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+   
+<TextView
+     android:id="@+id/textViewserie123"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" A 400 m, je devrai:"
+    android:layout_marginLeft="10dp" />
+    
+<TextView
+     android:id="@+id/textViewserie1241"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Changer de voie:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie121">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableserie123"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewserie124"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Céder le passage:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableserie125"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie122">
+        
+    </RadioGroup> 
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <TextView
+     android:id="@+id/textViewserie124"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="    "
+    android:layout_marginLeft="10dp" />
+    
+    
+    <HorizontalScrollView
+             android:id="@+id/horizontalScrollViewSerie12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:gravity="center"
+         >
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal" >
+    
+                
+        <Button
+        android:id="@+id/QuitterSerie121"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="QuitterSerie12"
+        android:text="Quitter" 
+         android:background="@drawable/mybutton1"/>          
+                
+                
+                
+   
+    
+    
+    <Button
+        android:id="@+id/ValiderSerie12"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderSerie12"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+     <TextView
+     android:id="@+id/textViewserie125"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="  12/45  "
+     android:textSize="17sp"
+     android:textColor="#0000FF"
+     />
+    
+    
+    
+
+      <Button
+        android:id="@+id/SuivanteSerie122"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="SuivanteSerie12"
+        android:text="Suivante" 
+         android:background="@drawable/mybutton"/>
+
+     
+    
+     </LinearLayout> 
+            
+              </HorizontalScrollView>
+    
+    
+    </TableLayout>
+
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>

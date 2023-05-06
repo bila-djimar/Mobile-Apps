@@ -1,0 +1,140 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme21"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewThem2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableThem21"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewThem21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+        <HorizontalScrollView
+             android:id="@+id/horizontalThem21"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_gravity="center" >    
+       
+
+        <ImageView
+            android:id="@+id/imageViewThem2"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_2" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+   
+   <TableRow
+        android:id="@+id/tableThem22"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewThem22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+   <TableRow
+        android:id="@+id/tableTheme2131"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer21"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+<TextView
+     android:id="@+id/textViewThem23"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Cet engin de déneigement vient de s'arrêter. Je le dépasse:"
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupThem2">
+        
+    </RadioGroup>
+    
+    <TableRow
+        android:id="@+id/tableThem23"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderThem2"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderThem2"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    
+    
+    

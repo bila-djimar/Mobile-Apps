@@ -1,0 +1,138 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme92"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewTheme92"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme921"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme921"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+        <HorizontalScrollView
+             android:id="@+id/horizontalSerie1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_gravity="center" >    
+       
+
+        <ImageView
+            android:id="@+id/imageViewTheme92"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_92" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+   
+   <TableRow
+        android:id="@+id/tableTheme922"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme922"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+   
+    <TableRow
+        android:id="@+id/tableTheme9231"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer92"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+<TextView
+     android:id="@+id/textViewTheme923"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Si je tracte une caravance, mes pneus doivent être gonflés à la pression supérieure:"
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme92">
+        
+    </RadioGroup>
+    
+    <TableRow
+        android:id="@+id/tableTheme923"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme92"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme92"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    

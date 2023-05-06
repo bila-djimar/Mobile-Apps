@@ -1,0 +1,205 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme11"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewTheme1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+  
+    
+  
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme11"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalTheme1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewTheme1"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_1" 
+           />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableTheme12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+   
+   
+    <TableRow
+        android:id="@+id/tableTheme1131"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer11"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer"
+         android:textColor="#0000FF" />
+
+    
+    
+    
+
+      </TableRow> 
+   
+   
+   
+<TextView
+     android:id="@+id/textViewTheme13"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Je peux stationner:"
+    android:layout_marginLeft="10dp" />
+    
+<TextView
+     android:id="@+id/textViewTheme141"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Sur la bande de droite:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme11">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableTheme13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewTheme14"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Sur l'herbe:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableTheme15"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme12">
+        
+    </RadioGroup> 
+    
+    <TableRow
+        android:id="@+id/tableTheme13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme1"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme1"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>

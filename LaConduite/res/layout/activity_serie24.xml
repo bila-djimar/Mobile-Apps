@@ -1,0 +1,206 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivitySerie24"
+    tools:ignore="MergeRootFrame"  >
+
+
+
+<ScrollView
+        android:id="@+id/scrollViewSerie24"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableserie241"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie241"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalSerie24"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_gravity="center" >    
+       
+
+        <ImageView
+            android:id="@+id/imageViewserie24"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/series_24" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableserie242"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie242"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+      <TableRow
+        android:id="@+id/tableThemeS24"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerS24"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+        android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+<TextView
+     android:id="@+id/textViewserie243"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="La vitesse est limitée à:"
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie24">
+        
+    </RadioGroup>
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+      <TextView
+     android:id="@+id/textViewserie244"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="    "
+    android:layout_marginLeft="10dp" />
+    
+    
+    <HorizontalScrollView
+             android:id="@+id/horizontalScrollViewSerie24"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:gravity="center"
+         >
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal" >
+    
+                
+        <Button
+        android:id="@+id/QuitterSerie241"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="QuitterSerie24"
+        android:text="Quitter" 
+         android:background="@drawable/mybutton1"/>          
+                
+                
+                
+   
+    
+    
+    <Button
+        android:id="@+id/ValiderSerie24"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderSerie24"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+     <TextView
+     android:id="@+id/textViewserie245"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="  24/45  "
+     android:textSize="17sp"
+     android:textColor="#0000FF"
+     />
+    
+    
+    
+
+      <Button
+        android:id="@+id/SuivanteSerie242"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="SuivanteSerie24"
+        android:text="Suivante" 
+         android:background="@drawable/mybutton"/>
+
+     
+    
+     </LinearLayout> 
+            
+              </HorizontalScrollView>
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    
+    
+    

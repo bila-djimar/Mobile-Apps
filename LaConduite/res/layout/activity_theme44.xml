@@ -1,0 +1,202 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme44"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewTheme44"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+  
+    
+  
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme441"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme441"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalTheme44"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewTheme44"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_44" 
+           />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableTheme442"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme442"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   
+    <TableRow
+        android:id="@+id/tableTheme4531"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerPriority4"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+<TextView
+     android:id="@+id/textViewTheme443"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Je céderai le passage:"
+    android:layout_marginLeft="10dp" />
+    
+<TextView
+     android:id="@+id/textViewTheme4441"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Aux voitures qui arrivent en face:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme441">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableTheme443"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme443"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewTheme444"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Aux véhicules qui viennent de droite:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableTheme445"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme445"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme442">
+        
+    </RadioGroup> 
+    
+    <TableRow
+        android:id="@+id/tableTheme443"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme44"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme44"
+        android:text="Valider" 
+        android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>

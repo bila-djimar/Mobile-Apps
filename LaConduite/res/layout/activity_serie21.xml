@@ -1,0 +1,210 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivitySerie21"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewSerie21"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableserie211"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalSerie21"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewserie21"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/series_21" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableserie212"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie212"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+      <TableRow
+        android:id="@+id/tableThemeS21"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerS21"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+        android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+<TextView
+     android:id="@+id/textViewserie213"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" "
+    android:layout_marginLeft="10dp" />
+    
+     
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie21">
+        
+    </RadioGroup>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <TextView
+     android:id="@+id/textViewserie214"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="    "
+    android:layout_marginLeft="10dp" />
+    
+    
+    <HorizontalScrollView
+             android:id="@+id/horizontalScrollViewSerie21"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:gravity="center"
+         >
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal" >
+    
+                
+        <Button
+        android:id="@+id/QuitterSerie21"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="QuitterSerie21"
+        android:text="Quitter" 
+         android:background="@drawable/mybutton1"/>          
+                
+                
+                
+   
+    
+    
+    <Button
+        android:id="@+id/ValiderSerie21"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderSerie21"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+     <TextView
+     android:id="@+id/textViewserie215"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="  21/45  "
+     android:textSize="17sp"
+     android:textColor="#0000FF"
+     />
+    
+    
+    
+
+      <Button
+        android:id="@+id/SuivanteSerie212"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="SuivanteSerie21"
+        android:text="Suivante" 
+         android:background="@drawable/mybutton"/>
+
+     
+    
+     </LinearLayout> 
+            
+              </HorizontalScrollView>
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
+    
+    
+    
+    
+    
+    

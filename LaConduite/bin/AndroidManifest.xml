@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laconduite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.laconduite.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.laconduite.ActivityPanneauxConduiteList"
+            android:label="@string/title_activity_panneaux_conduite_list" >
+        </activity>
+        
+        <activity
+            android:name="com.example.laconduite.ActivityTestSerieConduitList"
+            android:label="@string/title_activity_activity_test_serie_conduit_list" >
+        </activity>
+        
+        <activity
+            android:name="com.example.laconduite.ActivityPointConduiteList"
+            android:label="@string/title_activity_activity_point_conduite" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxDanger"
+            android:label="@string/title_activity_activity_signaux_danger" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPassageNiveau"
+            android:label="@string/title_activity_activity_passage_niveau" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxIntersectionPriority"
+            android:label="@string/title_activity_activity_signaux_intersection_priority" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignalisationInterdictionZone"
+            android:label="@string/title_activity_activity_signalisation_interdiction_zone" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityArretStationnement"
+            android:label="@string/title_activity_activity_arret_stationnement" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxObligation"
+            android:label="@string/title_activity_activity_signaux_obligation" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxIndication"
+            android:label="@string/title_activity_activity_signaux_indication" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxDirection"
+            android:label="@string/title_activity_activity_signaux_direction" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityBifurcationAutorotier"
+            android:label="@string/title_activity_activity_bifurcation_autorotier" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPanneauLocalisation"
+            android:label="@string/title_activity_activity_panneau_localisation" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityIdeogramme"
+            android:label="@string/title_activity_activity_ideogramme" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityBalises"
+            android:label="@string/title_activity_activity_balises" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPannonceaux"
+            android:label="@string/title_activity_activity_pannonceaux" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignauxLumineux"
+            android:label="@string/title_activity_activity_signaux_lumineux" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignalisationTemporaire"
+            android:label="@string/title_activity_activity_signalisation_temporaire" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint1"
+            android:label="@string/title_activity_activity_point1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint2"
+            android:label="@string/title_activity_activity_point2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint3"
+            android:label="@string/title_activity_activity_point3" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint4"
+            android:label="@string/title_activity_activity_point4" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint5"
+            android:label="@string/title_activity_activity_point5" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint6"
+            android:label="@string/title_activity_activity_point6" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint7"
+            android:label="@string/title_activity_activity_point7" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint8"
+            android:label="@string/title_activity_activity_point8" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint9"
+            android:label="@string/title_activity_activity_point9" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint10"
+            android:label="@string/title_activity_activity_point10" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint11"
+            android:label="@string/title_activity_activity_point11" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint12"
+            android:label="@string/title_activity_activity_point12" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint13"
+            android:label="@string/title_activity_activity_point13" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint14"
+            android:label="@string/title_activity_activity_point14" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint15"
+            android:label="@string/title_activity_activity_point15" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint16"
+            android:label="@string/title_activity_activity_point16" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint17"
+            android:label="@string/title_activity_activity_point17" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint18"
+            android:label="@string/title_activity_activity_point18" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint19"
+            android:label="@string/title_activity_activity_point19" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint20"
+            android:label="@string/title_activity_activity_point20" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint21"
+            android:label="@string/title_activity_activity_point21" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint22"
+            android:label="@string/title_activity_activity_point22" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint23"
+            android:label="@string/title_activity_activity_point23" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint24"
+            android:label="@string/title_activity_activity_point24" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint26"
+            android:label="@string/title_activity_activity_point26" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint27"
+            android:label="@string/title_activity_activity_point27" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint28"
+            android:label="@string/title_activity_activity_point28" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint29"
+            android:label="@string/title_activity_activity_point29" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint30"
+            android:label="@string/title_activity_activity_point30" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint25"
+            android:label="@string/title_activity_activity_point25" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint31"
+            android:label="@string/title_activity_activity_point31" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint32"
+            android:label="@string/title_activity_activity_point32" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint33"
+            android:label="@string/title_activity_activity_point33" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint34"
+            android:label="@string/title_activity_activity_point34" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint35"
+            android:label="@string/title_activity_activity_point35" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPoint36"
+            android:label="@string/title_activity_activity_point36" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie1"
+            android:label="@string/title_activity_activity_serie1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie2"
+            android:label="@string/title_activity_activity_serie2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie3"
+            android:label="@string/title_activity_activity_serie3" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie4"
+            android:label="@string/title_activity_activity_serie4" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie5"
+            android:label="@string/title_activity_activity_serie5" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie6"
+            android:label="@string/title_activity_activity_serie6" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie7"
+            android:label="@string/title_activity_activity_serie7" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie8"
+            android:label="@string/title_activity_activity_serie8" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie9"
+            android:label="@string/title_activity_activity_serie9" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie10"
+            android:label="@string/title_activity_activity_serie10" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie11"
+            android:label="@string/title_activity_activity_serie11" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie12"
+            android:label="@string/title_activity_activity_serie12" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie13"
+            android:label="@string/title_activity_activity_serie13" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie14"
+            android:label="@string/title_activity_activity_serie14" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie15"
+            android:label="@string/title_activity_activity_serie15" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie16"
+            android:label="@string/title_activity_activity_serie16" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie17"
+            android:label="@string/title_activity_activity_serie17" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie18"
+            android:label="@string/title_activity_activity_serie18" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie19"
+            android:label="@string/title_activity_activity_serie19" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie20"
+            android:label="@string/title_activity_activity_serie20" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie21"
+            android:label="@string/title_activity_activity_serie21" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie22"
+            android:label="@string/title_activity_activity_serie22" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie23"
+            android:label="@string/title_activity_activity_serie23" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie24"
+            android:label="@string/title_activity_activity_serie24" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie25"
+            android:label="@string/title_activity_activity_serie25" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie26"
+            android:label="@string/title_activity_activity_serie26" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie27"
+            android:label="@string/title_activity_activity_serie27" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie28"
+            android:label="@string/title_activity_activity_serie28" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie29"
+            android:label="@string/title_activity_activity_serie29" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie30"
+            android:label="@string/title_activity_activity_serie30" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie31"
+            android:label="@string/title_activity_activity_serie31" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie32"
+            android:label="@string/title_activity_activity_serie32" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie33"
+            android:label="@string/title_activity_activity_serie33" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie34"
+            android:label="@string/title_activity_activity_serie34" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie35"
+            android:label="@string/title_activity_activity_serie35" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie36"
+            android:label="@string/title_activity_activity_serie36" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie37"
+            android:label="@string/title_activity_activity_serie37" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie38"
+            android:label="@string/title_activity_activity_serie38" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie39"
+            android:label="@string/title_activity_activity_serie39" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie40"
+            android:label="@string/title_activity_activity_serie40" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie41"
+            android:label="@string/title_activity_activity_serie41" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie42"
+            android:label="@string/title_activity_activity_serie42" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie43"
+            android:label="@string/title_activity_activity_serie43" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie44"
+            android:label="@string/title_activity_activity_serie44" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySerie45"
+            android:label="@string/title_activity_activity_serie45" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTestList"
+            android:label="@string/title_activity_activity_test_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTestThematiqueConduitList"
+            android:label="@string/title_activity_activity_test_thematique_conduit_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme11"
+            android:label="@string/title_activity_activity_theme1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme21"
+            android:label="@string/title_activity_activity_theme2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme31"
+            android:label="@string/title_activity_activity_theme3" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme41"
+            android:label="@string/title_activity_activity_theme4" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme51"
+            android:label="@string/title_activity_activity_them5" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme61"
+            android:label="@string/title_activity_activity_theme6" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme71"
+            android:label="@string/title_activity_activity_them7" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme81"
+            android:label="@string/title_activity_activity_theme8" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme91"
+            android:label="@string/title_activity_activity_theme9" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityBSRetASSRList"
+            android:label="@string/title_activity_activity_bsret_assrlist" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityBSRlist"
+            android:label="@string/title_activity_activity_bsrlist" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityASSR1List"
+            android:label="@string/title_activity_activity_assr1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityASSR2List"
+            android:label="@string/title_activity_activity_assr2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityBSR1"
+            android:label="@string/title_activity_activity_bsr1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr11"
+            android:label="@string/title_activity_activity_bsr2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr12"
+            android:label="@string/title_activity_activity_assr12" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr13"
+            android:label="@string/title_activity_activity_assr13" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr14"
+            android:label="@string/title_activity_activity_assr14" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr15"
+            android:label="@string/title_activity_activity_assr15" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr21"
+            android:label="@string/title_activity_activity_assr21" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr22"
+            android:label="@string/title_activity_activity_assr22" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr23"
+            android:label="@string/title_activity_activity_assr23" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr24"
+            android:label="@string/title_activity_activity_assr24" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityAssr25"
+            android:label="@string/title_activity_activity_assr25" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityQuestionOralesList"
+            android:label="@string/title_activity_activity_question_orales_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityVerificationInterieurList"
+            android:label="@string/title_activity_activity_verification_interieur" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityVerificationExterieurList"
+            android:label="@string/title_activity_activity_verification_exterieur_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityInterieur1"
+            android:label="@string/title_activity_activity_interieur1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityInterieur2"
+            android:label="@string/title_activity_activity_interieur2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityInterieur3"
+            android:label="@string/title_activity_activity_inferieur3" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityInterieur4"
+            android:label="@string/title_activity_activity_inferieur4" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityInterieur5"
+            android:label="@string/title_activity_activity_interieur5" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityExterieur1"
+            android:label="@string/title_activity_activity_exterieur1" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityExterieur2"
+            android:label="@string/title_activity_activity_exterieur2" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityExterieur3"
+            android:label="@string/title_activity_activity_exterieur3" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityExterieur4"
+            android:label="@string/title_activity_activity_exterieur4" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityExterieur5"
+            android:label="@string/title_activity_activity_exterieur5" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityStationnementList"
+            android:label="@string/title_activity_activity_stationnement_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme12"
+            android:label="@string/title_activity_activity_theme12" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme13"
+            android:label="@string/title_activity_activity_theme13" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme14"
+            android:label="@string/title_activity_activity_theme14" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme15"
+            android:label="@string/title_activity_activity_theme15" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityCroisementList"
+            android:label="@string/title_activity_activity_croisement" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme22"
+            android:label="@string/title_activity_activity_theme22" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme23"
+            android:label="@string/title_activity_activity_theme23" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme24"
+            android:label="@string/title_activity_activity_theme24" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme25"
+            android:label="@string/title_activity_activity_theme25" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivitySignalisationList"
+            android:label="@string/title_activity_activity_signalisation_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme32"
+            android:label="@string/title_activity_activity_theme32" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme33"
+            android:label="@string/title_activity_activity_theme33" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme34"
+            android:label="@string/title_activity_activity_theme34" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme35"
+            android:label="@string/title_activity_activity_theme35" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityPriorityList"
+            android:label="@string/title_activity_activity_priority_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme42"
+            android:label="@string/title_activity_activity_theme42" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme43"
+            android:label="@string/title_activity_activity_theme43" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme44"
+            android:label="@string/title_activity_activity_theme44" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme45"
+            android:label="@string/title_activity_activity_theme45" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityVisibilityList"
+            android:label="@string/title_activity_activity_visibility_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme52"
+            android:label="@string/title_activity_activity_theme52" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme53"
+            android:label="@string/title_activity_activity_theme53" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme54"
+            android:label="@string/title_activity_activity_theme54" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme55"
+            android:label="@string/title_activity_activity_theme55" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.Activitycreneau"
+            android:label="@string/title_activity_activitycreneau" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityRegleCirculationList"
+            android:label="@string/title_activity_activity_regle_circulation_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme62"
+            android:label="@string/title_activity_activity_theme62" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme63"
+            android:label="@string/title_activity_activity_theme63" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme64"
+            android:label="@string/title_activity_activity_theme64" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme65"
+            android:label="@string/title_activity_activity_theme65" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityConduiteEconomiqueList"
+            android:label="@string/title_activity_activity_conduite_economique_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme72"
+            android:label="@string/title_activity_activity_theme72" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme73"
+            android:label="@string/title_activity_activity_theme73" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme74"
+            android:label="@string/title_activity_activity_theme74" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme75"
+            android:label="@string/title_activity_activity_theme75" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTunnelList"
+            android:label="@string/title_activity_activity_tunnel_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme82"
+            android:label="@string/title_activity_activity_theme82" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme83"
+            android:label="@string/title_activity_activity_theme83" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme84"
+            android:label="@string/title_activity_activity_theme84" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme85"
+            android:label="@string/title_activity_activity_theme85" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityQuestionEcritesList"
+            android:label="@string/title_activity_activity_question_ecrites_list" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme92"
+            android:label="@string/title_activity_activity_theme92" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme93"
+            android:label="@string/title_activity_activity_theme93" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme94"
+            android:label="@string/title_activity_activity_theme94" >
+        </activity>
+        <activity
+            android:name="com.example.laconduite.ActivityTheme95"
+            android:label="@string/title_activity_activity_theme95" >
+        </activity>
+    </application>
+
+</manifest>

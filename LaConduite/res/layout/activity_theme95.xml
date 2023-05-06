@@ -1,0 +1,202 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivityTheme95"
+    tools:ignore="MergeRootFrame"  >
+
+<ScrollView
+        android:id="@+id/scrollViewTheme95"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+  
+    
+  
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableTheme951"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewTheme951"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalTheme95"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewTheme95"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/theme_95" 
+           />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableTheme952"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme952"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+      
+   <TableRow
+        android:id="@+id/tableTheme4531"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometer95"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+        android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+     
+<TextView
+     android:id="@+id/textViewTheme953"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Suite à un accident, l'assureur risque de réduire ou d'annuler l'indemnisation en cas de:"
+    android:layout_marginLeft="10dp" />
+    
+<TextView
+     android:id="@+id/textViewTheme9541"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Conduite en état d'inversse:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme951">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableTheme953"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme953"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewTheme954"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Non port de la ceinture de sécurité:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableTheme955"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewTheme955"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupTheme952">
+        
+    </RadioGroup> 
+    
+    <TableRow
+        android:id="@+id/tableTheme953"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/ValiderTheme95"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderTheme95"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+
+      </TableRow> 
+    
+    </TableLayout>
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>

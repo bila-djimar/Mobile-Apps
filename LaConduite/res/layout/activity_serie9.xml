@@ -1,0 +1,267 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivitySerie9"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewSerie9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+ 
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableserie91"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalSerie9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewserie9"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/series_9" 
+           />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableserie92"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+   <TableRow
+        android:id="@+id/tableThemeS9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerS9"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+   
+   
+   
+<TextView
+     android:id="@+id/textViewserie93"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Je devrai céder le passage:"
+    android:layout_marginLeft="10dp" />
+    
+<TextView
+     android:id="@+id/textViewserie941"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="A droit:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie91">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableserie93"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewserie94"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="A gauche:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableserie95"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie92">
+        
+    </RadioGroup> 
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+      <TextView
+     android:id="@+id/textViewserie94"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="    "
+    android:layout_marginLeft="10dp" />
+    
+    
+    <HorizontalScrollView
+             android:id="@+id/horizontalScrollViewSerie9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:gravity="center"
+         >
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal" >
+    
+                
+        <Button
+        android:id="@+id/QuitterSerie91"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="QuitterSerie9"
+        android:text="Quitter" 
+         android:background="@drawable/mybutton1"/>          
+                
+                
+                
+   
+    
+    
+    <Button
+        android:id="@+id/ValiderSerie9"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderSerie9"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+     <TextView
+     android:id="@+id/textViewserie95"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="  9/45  "
+     android:textSize="17sp"
+     android:textColor="#0000FF"
+     />
+    
+    
+    
+
+      <Button
+        android:id="@+id/SuivanteSerie92"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="SuivanteSerie9"
+        android:text="Suivante" 
+         android:background="@drawable/mybutton"/>
+
+     
+    
+     </LinearLayout> 
+            
+              </HorizontalScrollView>
+    
+    
+    </TableLayout>
+
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>

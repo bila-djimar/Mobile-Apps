@@ -1,0 +1,266 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laconduite.ActivitySerie18"
+    tools:ignore="MergeRootFrame" >
+
+<ScrollView
+        android:id="@+id/scrollViewSerie18"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+  
+    
+  
+    
+     <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+       
+       
+       
+       <TableRow
+        android:id="@+id/tableserie181"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      <TextView
+            android:id="@+id/textViewserie181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+    
+
+
+         <HorizontalScrollView
+             android:id="@+id/horizontalSerie18"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+      
+            <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" 
+              android:layout_gravity="center">    
+       
+
+        <ImageView
+            android:id="@+id/imageViewserie18"
+           android:layout_width="360dip"
+            android:layout_height="150dip"
+            android:src="@drawable/series_18" />
+
+        
+         </LinearLayout> 
+            
+              </HorizontalScrollView> 
+
+   
+   <TableRow
+        android:id="@+id/tableserie182"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie182"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>   
+     
+<TextView
+     android:id="@+id/textViewserie183"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Cette balise annonce:"
+    android:layout_marginLeft="10dp" />
+    
+ <TableRow
+        android:id="@+id/tableThemeS18"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    
+    <Chronometer
+        android:id="@+id/chronometerS18"
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" 
+         android:textColor="#0000FF"/>
+
+    
+    
+    
+
+      </TableRow> 
+
+<TextView
+     android:id="@+id/textViewserie1841"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" La présence d'un feu rouge clignotant:"
+    android:layout_marginLeft="10dp" />     
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie181">
+        
+    </RadioGroup>
+    
+    
+    
+     <TableRow
+        android:id="@+id/tableserie183"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie183"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    
+    
+    
+   <TextView
+     android:id="@+id/textViewserie184"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text=" Une obligation de marquer l'arrêt:"
+    android:layout_marginLeft="10dp" />
+    
+     <TableRow
+        android:id="@+id/tableserie185"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+      
+       
+      <TextView
+            android:id="@+id/textViewserie185"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="10sp" />
+      </TableRow>  
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroupSerie182">
+        
+    </RadioGroup> 
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+     <TextView
+     android:id="@+id/textViewserie184"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="    "
+    android:layout_marginLeft="10dp" />
+    
+    
+    <HorizontalScrollView
+             android:id="@+id/horizontalScrollViewSerie18"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:gravity="center"
+         >
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal" >
+    
+                
+        <Button
+        android:id="@+id/QuitterSerie181"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="QuitterSerie18"
+        android:text="Quitter" 
+         android:background="@drawable/mybutton1"/>          
+                
+                
+                
+   
+    
+    
+    <Button
+        android:id="@+id/ValiderSerie18"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="ValiderSerie18"
+        android:text="Valider" 
+         android:background="@drawable/mybutton"/>
+     <TextView
+     android:id="@+id/textViewserie185"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="  18/45  "
+     android:textSize="17sp"
+     android:textColor="#0000FF"
+     />
+    
+    
+    
+
+      <Button
+        android:id="@+id/SuivanteSerie182"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="SuivanteSerie18"
+        android:text="Suivante" 
+         android:background="@drawable/mybutton"/>
+
+     
+    
+     </LinearLayout> 
+            
+              </HorizontalScrollView>
+    
+    
+    </TableLayout>
+
+
+ </ScrollView>
+   
+   
+   
+
+    
+  
+</TableLayout>
