@@ -1,0 +1,166 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.characteristicsamartphone.ActivityContacteUs"
+    tools:ignore="MergeRootFrame" 
+    android:stretchColumns="1">
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       >
+       
+         
+         <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1"
+        >
+         <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+             
+        <TableRow
+        android:id="@+id/tableRowContact1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+            <TextView
+            android:id="@+id/textViewcontact11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       " 
+            android:textSize="16sp" />
+       </TableRow>
+       
+        
+    
+             
+     <TableRow
+        android:id="@+id/tableRowContact2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+            <TextView
+            android:id="@+id/textViewcontact21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="16sp" />
+     </TableRow>
+     
+     
+     
+     
+    
+       
+              
+              
+      
+        
+         
+             
+     <TableRow
+     android:id="@+id/tableRowContact5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+                  
+            <TextView
+            android:id="@+id/textViewcontact51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       E-mail" 
+            android:textSize="16sp" />
+             
+             
+             
+            <TextView
+            android:id="@+id/textViewcontact52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="szemmoudj@gmail.com" 
+            android:textSize="16sp" />
+     
+     </TableRow>
+    
+              
+        <TableRow
+        android:id="@+id/tableRowContact6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewcontact61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="16sp" />
+        
+        
+        </TableRow>
+     
+        
+        <TableRow
+        android:id="@+id/tableRowContact7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewcontact71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        " 
+            android:textSize="16sp" />
+
+        
+    </TableRow>
+
+        
+
+       <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >
+
+              <ImageView
+               android:id="@+id/imageViewavertissement"
+               android:layout_width="140dip"
+               android:layout_height="140dip"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/salah" />
+            
+           </TableRow> 
+             
+         <TableRow
+        android:id="@+id/tableRowContact9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+            <TextView
+            android:id="@+id/textViewcontact91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Salah Zemmoudj    " 
+            android:textSize="16sp" />
+       </TableRow>     
+             
+       
+        
+         
+         
+             </TableLayout>
+</HorizontalScrollView>
+ </ScrollView>
+    
+
+</TableLayout>

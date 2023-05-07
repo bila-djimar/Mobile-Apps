@@ -1,0 +1,517 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    tools:context="com.characteristicsamartphone.ActivitySmartphoneOtherInformation"
+    tools:ignore="MergeRootFrame" >
+    
+   
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       >
+       
+         
+         <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1"
+        >
+         <TableLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:orientation="vertical" >
+   
+<TableRow
+            android:id="@+id/tableRow111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textViewIMEI11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+             
+         
+
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  IMEI" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewIMEI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+
+        
+ <TableRow
+            android:id="@+id/tableRow51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Device Software Version" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewDeviceSoftwareVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+ 
+ 
+        
+      <TableRow
+            android:id="@+id/tableRow52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>  
+        
+ 
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Country Iso" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewCountryIso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+        
+       
+        
+        
+        <TableRow
+            android:id="@+id/tableRow53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+         
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sim Operator" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewSimOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+        
+        
+        
+        
+        
+        <TableRow
+            android:id="@+id/tableRow54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+        
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sim Operator Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSimOperatorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+        
+        
+       
+        
+        
+        <TableRow
+            android:id="@+id/tableRow55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+        
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sim Serial Number" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewSimSerialNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+        </TableRow>
+        
+        
+     <TableRow
+            android:id="@+id/tableRow56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+           
+        
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Subscriber Id" 
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewSubscriberId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="16sp"/>
+        </TableRow>
+        
+        
+        
+        
+        <TableRow
+            android:id="@+id/tableRow57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+
+         <TableRow
+             android:id="@+id/tableRow8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" >
+
+             <TextView
+                 android:id="@+id/textView8"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="  Network Operator Name" 
+                 android:textSize="16sp"/>
+
+             <TextView
+                 android:id="@+id/textViewNetworkOperatorName"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="" 
+                 android:textSize="16sp"/>
+
+         </TableRow>
+       
+<TableRow
+            android:id="@+id/tableRow58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+         
+         
+
+          <TableRow
+              android:id="@+id/tableRow9"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/textView9"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="  Network Operator" 
+                  android:textSize="16sp"/>
+
+              <TextView
+                  android:id="@+id/textViewNetworkOperator"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=""
+                  android:textSize="16sp" />
+
+          </TableRow>
+          
+          
+    
+          
+          <TableRow
+            android:id="@+id/tableRow59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>
+
+           <TableRow
+               android:id="@+id/tableRow10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+
+               <TextView
+                   android:id="@+id/textView10"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="  Network Country Iso" 
+                   android:textSize="16sp"/>
+
+               <TextView
+                   android:id="@+id/textViewNetworkCountryIso"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="" 
+                   android:textSize="16sp"/>
+
+           </TableRow>
+
+
+     <TableRow
+            android:id="@+id/tableRow60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  " 
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textSize="10sp"/>
+        </TableRow>      
+           
+           
+           <TableRow
+               android:id="@+id/tableRow101"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+
+               <TextView
+                   android:id="@+id/textView101"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="  "
+                   android:textSize="16sp" />
+
+               <TextView
+                   android:id="@+id/textView102"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="" 
+                   android:textSize="16sp"/>
+
+           </TableRow>            
+           
+</TableLayout>
+</HorizontalScrollView>
+ </ScrollView>
+
+
+</TableLayout>

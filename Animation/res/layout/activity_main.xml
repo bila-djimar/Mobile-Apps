@@ -1,0 +1,108 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.animation.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+     <ImageView
+         android:id="@+id/imgage"
+         android:layout_width="80dip"
+         android:layout_height="80dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="10dp"
+         android:layout_y="4dp"
+         android:src="@drawable/capture3" />
+
+     <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="120dip"
+         android:layout_height="120dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="0dp"
+         android:layout_y="151dp"
+         android:src="@drawable/capture2" />
+
+     <ImageView
+         android:id="@+id/ImageView03"
+         android:layout_width="80dip"
+         android:layout_height="80dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="239dp"
+         android:layout_y="128dp"
+         android:src="@drawable/capture2" />
+
+     <ImageView
+         android:id="@+id/imgage5"
+         android:layout_width="80dip"
+         android:layout_height="80dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="124dp"
+         android:layout_y="8dp"
+         android:src="@drawable/capture6" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="4dp"
+         android:layout_y="425dp"
+         android:onClick="alpha"
+         android:text="Scale animation" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="152dp"
+         android:layout_y="421dp"
+         android:onClick="doScale"
+         android:text="Summer" />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="241dp"
+         android:layout_y="420dp"
+         android:onClick="doScale3"
+         android:text="winter" />
+
+     <ImageView
+         android:id="@+id/ImageView05"
+         android:layout_width="120dip"
+         android:layout_height="120dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="98dp"
+         android:layout_y="188dp"
+         android:src="@drawable/capture9" />
+
+     <ImageView
+         android:id="@+id/imgage2"
+         android:layout_width="100dip"
+         android:layout_height="100dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="212dp"
+         android:layout_y="204dp"
+         android:src="@drawable/capture2" />
+
+     <ImageView
+         android:id="@+id/ImageView04"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_marginLeft="10dp"
+         android:layout_x="190dp"
+         android:layout_y="310dp"
+         android:src="@drawable/capture2" />
+
+     <ImageView
+         android:id="@+id/ImageView02"
+         android:layout_width="140dip"
+         android:layout_height="140dip"
+         android:layout_marginLeft="10dp"
+         android:layout_x="6dp"
+         android:layout_y="280dp"
+         android:src="@drawable/capture2" />
+
+</AbsoluteLayout>

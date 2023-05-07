@@ -1,0 +1,1399 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.characteristicsamartphone.ActivitySystemProcessor"
+    tools:ignore="MergeRootFrame" 
+    android:stretchColumns="1">
+
+       
+     <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       >
+       
+         
+         <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1"
+        >
+         <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+        <TableRow
+        android:id="@+id/tableRow221"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView221"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>     
+             
+     
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Model" 
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="16sp"/>
+
+    </TableRow>
+
+    
+    
+    <TableRow
+        android:id="@+id/Row1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Manufacturer"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" 
+            android:textSize="16sp"/>
+
+    </TableRow>
+ 
+    
+  <TableRow
+        android:id="@+id/Row2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>  
+    
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Board"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" 
+            android:textSize="16sp"/>
+
+    </TableRow>
+
+   <TableRow
+        android:id="@+id/Row3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow> 
+    
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Bootloader"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" 
+            android:textSize="16sp"/>
+
+    </TableRow>
+    
+    
+  
+   <TableRow
+        android:id="@+id/Row4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow> 
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow42"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Build ID" 
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" 
+            android:textSize="16sp"/>
+
+    </TableRow>
+    
+    
+    
+    
+    <TableRow
+        android:id="@+id/Row5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   Brand"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:text="" 
+            android:textSize="16sp"/>
+
+    </TableRow>
+ 
+    
+    <TableRow
+        android:id="@+id/Row6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   CPU ABI1" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+              android:textSize="16sp" />
+
+    </TableRow>
+    
+    
+    
+    <TableRow
+        android:id="@+id/Row7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   CPU ABI2" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+              android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Row8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   DEVICE" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+              android:textSize="16sp" />
+
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/Row9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   DISPLAY" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:textSize="16sp"/>
+
+    </TableRow>
+
+   
+    
+    
+    <TableRow
+        android:id="@+id/Row10"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+    
+    
+    
+ 
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   HARDWARE" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+              android:textSize="16sp" />
+
+    </TableRow>
+
+    
+    
+    <TableRow
+        android:id="@+id/Row11"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   HOST" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:textSize="16sp"/>
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/Row12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   ID" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=" "
+              android:textSize="16sp" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/Row13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon13"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View13"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow14"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   PRODUCT" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+              android:textSize="16sp" />
+
+    </TableRow>
+
+   
+    <TableRow
+        android:id="@+id/Row14"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon14"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View14"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow16"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   TAGS" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:textSize="16sp"/>
+
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/Row15"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow17"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   TYPE" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:textSize="16sp"/>
+
+    </TableRow>
+
+ 
+    
+    <TableRow
+        android:id="@+id/Row16"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow18"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   USER" 
+              android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:textSize="16sp"/>
+
+    </TableRow>
+   
+
+    
+    <TableRow
+        android:id="@+id/Row17"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon17"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View17"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+   <TableRow
+       android:id="@+id/tableRow19"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" >
+
+       <TextView
+           android:id="@+id/textView37"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="   Android Version"
+             android:textSize="16sp" />
+
+       <TextView
+           android:id="@+id/textView38"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+             android:textSize="16sp" />
+
+   </TableRow>
+   
+   
+   
+   <TableRow
+        android:id="@+id/Row18"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon18"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View18"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+    
+
+   <TableRow
+       android:id="@+id/tableRow191"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" >
+
+       <TextView
+           android:id="@+id/textView371"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="   API Level"
+           android:textSize="16sp" />
+
+       <TextView
+           android:id="@+id/textView381"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+             android:textSize="16sp" />
+
+   </TableRow>
+   
+   
+   
+   <TableRow
+        android:id="@+id/Row19"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon19"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View19"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+   
+   
+ 
+
+ <TableRow
+     android:id="@+id/tableRow20"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView39"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Total RAM"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/textView40"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+           android:textSize="16sp"/>
+
+ </TableRow>
+ 
+ 
+ <TableRow
+        android:id="@+id/Row20"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon20"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View20"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+  <TableRow
+      android:id="@+id/tableRow21"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" >
+
+      <TextView
+          android:id="@+id/textView41"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:text="   Available RAM"
+          android:textSize="16sp" />
+
+      <TextView
+          android:id="@+id/textView42"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:text=" " 
+            android:textSize="16sp"/>
+
+  </TableRow>
+  
+  <TableRow
+        android:id="@+id/Row21"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon21"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View21"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+  
+
+<TableRow
+     android:id="@+id/tableRow27"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView53"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Screen Size"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/textView54"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+           android:textSize="16sp"/>
+
+ </TableRow>
+ 
+
+<TableRow
+        android:id="@+id/Row22"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon22"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View22"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+ <TableRow
+     android:id="@+id/tableRow22"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView43"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Screen Resolution(Pixels)"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/textView44"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+           android:textSize="16sp"/>
+
+ </TableRow>
+
+<TableRow
+        android:id="@+id/Row23"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon23"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View23"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+ 
+ 
+ <TableRow
+     android:id="@+id/tableRow28"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView55"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Screen Density" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView56"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+ 
+ 
+
+ 
+<TableRow
+        android:id="@+id/Row24"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon24"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View24"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+ 
+
+
+
+<TableRow
+     android:id="@+id/tableRow24"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView47"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Java VM " 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView48"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+ 
+
+<TableRow
+        android:id="@+id/Row25"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+<TableRow
+     android:id="@+id/tableRow29"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView57"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   OpenGL ES" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView58"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+
+
+<TableRow
+        android:id="@+id/Row26"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon26"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="  " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View26"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+
+
+<TableRow
+     android:id="@+id/tableRow25"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView49"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Kernel Architecture" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView50"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+           android:textSize="16sp"/>
+
+ </TableRow>
+
+<TableRow
+        android:id="@+id/Row27"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon27"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View27"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+<TableRow
+     android:id="@+id/tableRow26"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView51"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Kernel Version" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView52"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+
+
+<TableRow
+        android:id="@+id/Row28"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon28"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View28"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+
+
+<TableRow
+     android:id="@+id/tableRow271"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView531"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   GPU Renderer" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView541"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+
+
+<TableRow
+        android:id="@+id/Row29"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon29"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View29"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+<TableRow
+     android:id="@+id/tableRow281"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView551"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   GPU Vendor" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView561"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+
+
+<TableRow
+        android:id="@+id/Row30"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/collon30"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/View30"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+    </TableRow>
+
+
+
+
+
+ <TableRow
+     android:id="@+id/tableRow291"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/textView571"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="   Cores of processor" 
+           android:textSize="16sp"/>
+
+     <TextView
+         android:id="@+id/textView581"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+           android:textSize="16sp" />
+
+ </TableRow>
+
+
+
+
+
+</TableLayout>
+</HorizontalScrollView>
+ </ScrollView>
+
+    
+        
+    
+</TableLayout>
+

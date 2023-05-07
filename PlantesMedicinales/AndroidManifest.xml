@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plantesmedicinales"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.plantesmedicinales.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPhytotherapieList"
+            android:label="@string/title_activity_activity_phytotherapie" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityFatiguePhysiqueMentaleList"
+            android:label="@string/title_activity_activity_fatigue_physique_mentale" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityZingiber"
+            android:label="@string/title_activity_activity_zingiber" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityGinseng"
+            android:label="@string/title_activity_activity_ginseng" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityGuarana"
+            android:label="@string/title_activity_activity_guarana" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMaca"
+            android:label="@string/title_activity_activity_maca" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityOrigan"
+            android:label="@string/title_activity_activity_origan" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPropolis"
+            android:label="@string/title_activity_activity_propolis" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivitySpiruline"
+            android:label="@string/title_activity_activity_spiruline" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMauxQuotidienList"
+            android:label="@string/title_activity_activity_maux_quotidien" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityAildesOur"
+            android:label="@string/title_activity_activity_aildes_our" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityChou"
+            android:label="@string/title_activity_activity_chou" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityCitronnelle"
+            android:label="@string/title_activity_activity_citronnelle" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityGeleeroyale"
+            android:label="@string/title_activity_activity_desmodium" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityNigelle"
+            android:label="@string/title_activity_activity_nigelle" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityRaifort"
+            android:label="@string/title_activity_activity_raifort" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityThym"
+            android:label="@string/title_activity_activity_thym" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMinceurList"
+            android:label="@string/title_activity_activity_minceur_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityKonjac"
+            android:label="@string/title_activity_activity_konjac" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityNoisetier"
+            android:label="@string/title_activity_activity_noisetier" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityNopalFiguedeBarbarie"
+            android:label="@string/title_activity_activity_nopal_figuede_barbarie" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTheVert"
+            android:label="@string/title_activity_activity_the_vert" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTroublesFemininsList"
+            android:label="@string/title_activity_activity_troubles_feminins_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMyrtille"
+            android:label="@string/title_activity_activity_myrtille" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPersil"
+            android:label="@string/title_activity_activity_persil" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivitySauge"
+            android:label="@string/title_activity_activity_sauge" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTroublesUrinaireList"
+            android:label="@string/title_activity_activity_troubles_urinaire_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityBusserole"
+            android:label="@string/title_activity_activity_busserole" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityCanneberge"
+            android:label="@string/title_activity_activity_canneberge" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityOrthosiphon"
+            android:label="@string/title_activity_activity_orthosiphon" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPiloselle"
+            android:label="@string/title_activity_activity_piloselle" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPissenlit"
+            android:label="@string/title_activity_activity_pissenlit" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPrele"
+            android:label="@string/title_activity_activity_prele" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivitySureau"
+            android:label="@string/title_activity_activity_sureau" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityVergeOr"
+            android:label="@string/title_activity_activity_verge_or" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTroubleDigestionTransitList"
+            android:label="@string/title_activity_activity_trouble_digestion_transit_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityBadiane"
+            android:label="@string/title_activity_activity_badiane" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityCannelle"
+            android:label="@string/title_activity_activity_cannelle" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityCardamome"
+            android:label="@string/title_activity_activity_cardamome" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityCurcuma"
+            android:label="@string/title_activity_activity_curcuma" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityFenouil"
+            android:label="@string/title_activity_activity_fenouil" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityFenugrec"
+            android:label="@string/title_activity_activity_fenugrec" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPsyllium"
+            android:label="@string/title_activity_activity_psyllium" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityRadisNoire"
+            android:label="@string/title_activity_activity_radis_noire" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTamarin"
+            android:label="@string/title_activity_activity_tamarin" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMauxEspritList"
+            android:label="@string/title_activity_activity_maux_esprit_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityAubepine"
+            android:label="@string/title_activity_activity_aubepine" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityGinkgoBiloba"
+            android:label="@string/title_activity_activity_ginkgo_biloba" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityHoublon"
+            android:label="@string/title_activity_activity_houblon" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityLavande"
+            android:label="@string/title_activity_activity_lavande" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityMillepertuis"
+            android:label="@string/title_activity_activity_millepertuis" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPassiflore"
+            android:label="@string/title_activity_activity_passiflore" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityRomarin"
+            android:label="@string/title_activity_activity_romarin" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityRooibos"
+            android:label="@string/title_activity_activity_rooibos" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityTilleul"
+            android:label="@string/title_activity_activity_tilleul" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityProblemeOsseuxList"
+            android:label="@string/title_activity_activity_probleme_osseux" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityArnica"
+            android:label="@string/title_activity_activity_arnica" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityConsoude"
+            android:label="@string/title_activity_activity_consoude" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityVerveine"
+            android:label="@string/title_activity_activity_verveine" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityBeautePeauList"
+            android:label="@string/title_activity_activity_beaute_peau_list" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityAloaloeveraera"
+            android:label="@string/title_activity_activity_aloaloeveraera" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityAvoine"
+            android:label="@string/title_activity_activity_avoine" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityBardane"
+            android:label="@string/title_activity_activity_bardane" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityBourrache"
+            android:label="@string/title_activity_activity_bourrache" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityNoyer"
+            android:label="@string/title_activity_activity_noyer" >
+        </activity>
+        <activity
+            android:name="com.example.plantesmedicinales.ActivityPlantesMedecinaleList"
+            android:label="@string/title_activity_activity_plantes_medecinale_list" >
+        </activity>
+    </application>
+
+</manifest>
